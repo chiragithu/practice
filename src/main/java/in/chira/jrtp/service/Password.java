@@ -15,7 +15,10 @@ public class Password {
 	public String decode(String de) {
 		Decoder decoded = Base64.getDecoder();
 		byte[] value1 = decoded.decode(de);
+		//git branch practical
+				int a=0;
 		return new String(value1);
+		
 	}
 
 }
