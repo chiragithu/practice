@@ -7,6 +7,7 @@ import java.util.Base64.Encoder;
 public class Password {
 	
 	public String encode(String en) {
+		int a=0;
 		Encoder encodeed = Base64.getEncoder();
 		String value = encodeed.encodeToString(en.getBytes());
 		return value;
